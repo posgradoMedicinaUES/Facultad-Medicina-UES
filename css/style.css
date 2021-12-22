@@ -135,8 +135,25 @@ background-color: #65e4c7;
     flex-direction: row;
     justify-content: center;
     padding: 30px 0px;
-     
 }
+
+.card5{
+margin: 0 35%;
+}
+.button5{
+    position: absolute;
+    bottom:2em;
+    left:1em;
+    border: 3px solid #b6f1f9;
+    background-color:#ffff;
+    color:black;
+    text-decoration: none;
+    text-transform:uppercase;
+    padding:1em 1em;
+    border-radius: 10px;
+}
+
+
 
 footer i{
     color: black;
@@ -187,6 +204,9 @@ footer p {
     footer p{
         font-size:30px;
     }
+    .card5{
+        margin: 0 auto;
+        }
   }
 
   @media only screen and (max-width:1600px){
